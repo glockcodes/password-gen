@@ -1,5 +1,3 @@
-# Import the sys module
-import sys
 # Import the random module
 import random
 
