@@ -5,7 +5,7 @@ import random
 # Import the random module
 import string
 
-# Create a password generator function
+# Create password generator function
 def password_generator(length, number):
     # Create a list to hold the passwords
     passwords = []
@@ -22,7 +22,7 @@ def password_generator(length, number):
     # Return the list of passwords
     return passwords
 
-# Create a function to print the passwords
+# Create function to print the passwords
 def print_passwords(passwords):
     # Loop through the passwords
     for password in passwords:
