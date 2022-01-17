@@ -16,7 +16,7 @@ def password_generator(length, number):
         # Loop through the length of the password
         for i in range(length):
             # Add a random character to the password
-            password += random.choice(string.ascii_letters + string.digits)
+            password += random.choice(string.ascii_letters + string.digits + "!@#$%^&*")
         # Add the password to the list
         passwords.append(password)
     # Return the list of passwords
